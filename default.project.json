@@ -1,0 +1,19 @@
+{
+  "name": "Sisyphus Simulator",
+  "globIgnorePaths": ["**/*.spec.lua"],
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+
+    "Workspace": {
+      "$className": "Workspace"
+    }
+  }
+}
